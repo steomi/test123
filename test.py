@@ -56,7 +56,7 @@ for i in range(0, len(r2)):
 
 p = sorted(r3)
 
-for i in range(0, 20):
+while True:
     p = make_joust(p)
     if not(isinstance(p, list)):
         print(p)
