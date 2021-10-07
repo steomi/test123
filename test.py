@@ -21,7 +21,7 @@ def make_joust(arr):
         arr2.append(arr[pos])
         return len(arr2)
 
-    return arr2
+    return sorted(arr2)
 
 
 n = int(input("кол-во рыцарей без Галахада: "))
